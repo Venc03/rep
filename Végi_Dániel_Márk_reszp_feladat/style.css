@@ -1,0 +1,43 @@
+main, nav, header, article, footer{
+    border: 1px solid dimgray;
+    padding: 10px;
+}
+.bigp img, .smallp img{
+    width: 100%;
+}
+.smallp{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+nav>ul{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    list-style-type: none;
+}
+nav>li{
+    text-transform: none;
+}
+nav{
+    display: grid;
+    grid-template-columns: 80% auto;
+    text-decoration: none;
+    background-color: dimgray;
+}
+.ul1{
+    
+}
+.pp{
+
+}
+@media screen and (max-width: 800px){
+    .smallp img{
+        grid-template-columns: 1fr;
+    }
+    nav>ul{
+        grid-template-columns: 1fr;
+    }
+    nav{
+        grid-template-columns: 1fr;
+    }
+}
