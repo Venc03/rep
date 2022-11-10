@@ -1,34 +1,95 @@
-main, nav, header, article, footer{
+main, header, article, footer{
     border: 1px solid dimgray;
+    border-radius: 5px;
     padding: 10px;
 }
 .bigp img, .smallp img{
     width: 100%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px;
 }
 .smallp{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
 }
+.smolpp{
+    padding: 5px;
+}
 nav>ul{
     display: grid;
     grid-template-columns: repeat(3, 100px);
     list-style-type: none;
-}
-nav>li{
-    text-transform: none;
+    padding: 0;
 }
 nav{
     display: grid;
     grid-template-columns: 80% auto;
     text-decoration: none;
-    background-color: dimgray;
+    background-color: grey;
 }
-.ul1{
-    
+#ul1 li{
+    border: 1px solid crimson;
+    border-radius: 5px;
+    background: crimson;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-.pp{
 
+.elso:visited{
+    text-decoration: none;
+    color: white;
+}
+.elso:link{
+    text-decoration: none;
+    color: white;
+}
+.elso:hover{
+    text-decoration: none;
+    color: white;
+}
+.elso:active{
+    text-decoration: none;
+    color: white;
+}
+
+.masodik:visited{
+    text-decoration: none;
+    color: crimson;
+    border-left: 1px solid dimgray;
+    display: grid;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.masodik:link{
+    text-decoration: none;
+    color: crimson;
+    border-left: 1px solid dimgray;
+    display: grid;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.masodik:hover{
+    text-decoration: none;
+    color: crimson;
+    border-left: 1px solid dimgray;
+    display: grid;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.masodik:active{
+    text-decoration: none;
+    color: crimson;
+    border-left: 1px solid dimgray;
+    display: grid;
+    text-align: center;
+    padding: 0;
+    margin: 0;
 }
 @media screen and (max-width: 800px){
     .smallp img{
